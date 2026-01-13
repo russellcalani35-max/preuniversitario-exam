@@ -2044,7 +2044,7 @@
     "id": 261,
     "pregunta": "Una biblioteca tiene 84 libros y desea distribuirlos en estanterías de forma que cada estantería contenga el mismo número de libros, sin que quede ninguno fuera y sin dejar una estantería vacía. ¿Cuál es el mayor número de libros que puede colocar en cada estantería?",
     "opciones": ["84 libros", "42 libros", "21 libros", "12 libros"],
-    "respuesta_correcta": 0
+    "respuesta_correcta": 1
   },
   {
     "id": 262,
@@ -2157,7 +2157,7 @@
     "id": 274,
     "pregunta": "En la Unidad Educativa se organizará una competencia de relevos donde cada equipo está formado por 5 corredores. Si 84 estudiantes se anotan para participar, ¿cuántos equipos completos pueden formarse sin dejar a ningún estudiante sin equipo?",
     "opciones": ["16 equipos", "16.8 equipos", "17 equipos", "20 equipos"],
-    "respuesta_correcta": 0
+    "respuesta_correcta": 2
   },
   {
     "id": 275,
@@ -2371,6 +2371,7 @@
     "respuesta_correcta": 1
   }
 ]
+
 
 
 
