@@ -37,7 +37,7 @@
   },
   {
     "id": 7,
-    "pregunta": "En una campaña de entrega de caramelos, la cantidad que se reparten cada día se duplica respecto al día anterior. ¿Cuántos caramelos se repartirán el Día 5?",
+    "pregunta": "En una campaña de entrega de caramelos, la cantidad que se reparten cada día se duplica respecto al día anterior. El primer dia se entregaron 3 caramelos ¿Cuántos caramelos se repartirán el Día 5?",
     "opciones": ["36", "48", "52", "60"],
     "respuesta_correcta": 1
   },
@@ -740,7 +740,7 @@
   },
   {
     "id": 106,
-    "pregunta": "Para equipos de 4, se necesita al menos un estudiante de nivel 3 o superior. Hay 6 de nivel 3 y 4 de nivel 4 (10 en total). ¿Cuál es el máximo de equipos posibles?",
+    "pregunta": "Para equipos de 4, se necesita al menos un estudiante de nivel 3 o superior.Hay 12 estudiantes de nivel 1, 8 de nivel 2, 6 de nivel 3 y 4 de nivel 4. ¿Cuál es el máximo de equipos posibles?",
     "opciones": ["5", "7", "10", "12"],
     "respuesta_correcta": 1
   },
@@ -1484,7 +1484,7 @@
       "Biología – Química – Física",
       "Química – Física – Biología"
     ],
-    "respuesta_correcta": 3
+    "respuesta_correcta": 1
   },
   {
     "id": 188,
@@ -2118,7 +2118,7 @@
     "id": 270,
     "pregunta": "Una maestra tiene 48 lápices y desea agruparlos en paquetes idénticos de modo que no sobre ningún lápiz y que cada paquete contenga la mayor cantidad posible de lápices. ¿Cuántos lápices habrá en cada paquete?",
     "opciones": ["6 lápices", "8 lápices", "12 lápices", "24 lápices"],
-    "respuesta_correcta": 2
+    "respuesta_correcta": 3
   },
   {
     "id": 271,
@@ -2371,6 +2371,7 @@
     "respuesta_correcta": 1
   }
 ]
+
 
 
 
