@@ -1498,9 +1498,9 @@
     "opciones": ["17 s", "27 s", "44 s", "37 s"],
     "respuesta_correcta": 2
   },
-  {
+ {
     "id": 190,
-    "pregunta": "120 estudiantes. Aprobados = 2 * Reprobados. ¿Qué procedimiento es lógico?",
+    "pregunta": "En una escuela se inscribieron 120 estudiantes para un examen y se sabe que el número de aprobados es exactamente el doble del número de reprobados. De las siguientes cuatro propuestas, ¿cuál describe un procedimiento lógico y coherente que permite determinar cuántos estudiantes aprobaron?",
     "opciones": [
       "x + 2x = 120 -> 3x = 120 -> x = 40 reprobados, 80 aprobados.",
       "Aprobados = 120 / 2 = 60.",
@@ -2371,6 +2371,7 @@
     "respuesta_correcta": 1
   }
 ]
+
 
 
 
