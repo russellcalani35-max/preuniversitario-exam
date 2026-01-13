@@ -4,19 +4,70 @@
     <meta charset="UTF-8">
     <title>Simulacro de Examen</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 20px; }
-        h1 { text-align: center; color: #333; }
-        form { max-width: 900px; margin: auto; }
-        .pregunta { background: white; padding: 15px 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .pregunta h3 { margin: 0 0 10px 0; }
-        .opcion { display: block; margin: 5px 0; padding: 8px 12px; border-radius: 5px; border: 1px solid #ccc; cursor: pointer; transition: 0.2s; }
-        .opcion:hover { background: #e6f7ff; border-color: #33a1ff; }
-        .boton { display: block; width: 200px; margin: 20px auto; padding: 10px 15px; background: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: 0.2s; }
-        .boton:hover { background: #45a049; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f2f2f2; 
+            padding: 20px; 
+        }
+        h1 { 
+            text-align: center; 
+            color: #333; 
+        }
+        .creator {
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px; /* separa del formulario */
+        }
+        form { 
+            max-width: 900px; 
+            margin: auto; 
+        }
+        .pregunta { 
+            background: white; 
+            padding: 15px 20px; 
+            margin-bottom: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        }
+        .pregunta h3 { 
+            margin: 0 0 10px 0; 
+        }
+        .opcion { 
+            display: block; 
+            margin: 5px 0; 
+            padding: 8px 12px; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+            cursor: pointer; 
+            transition: 0.2s; 
+        }
+        .opcion:hover { 
+            background: #e6f7ff; 
+            border-color: #33a1ff; 
+        }
+        .boton { 
+            display: block; 
+            width: 200px; 
+            margin: 20px auto; 
+            padding: 10px 15px; 
+            background: #4CAF50; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            transition: 0.2s; 
+        }
+        .boton:hover { 
+            background: #45a049; 
+        }
     </style>
 </head>
 <body>
     <h1>Simulacro de Examen</h1>
+    <div class="creator">Creado por: Russell Esteban Calani Arce   -    PREPA PREMIUM</div>
+
     <form action="/corregir" method="POST">
         {% for p in preguntas %}
         <div class="pregunta">
@@ -34,5 +85,6 @@
     </form>
 </body>
 </html>
+
 
 
