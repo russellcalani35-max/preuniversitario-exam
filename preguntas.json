@@ -1,4 +1,5 @@
 [
+  
   {
     "id": 1,
     "pregunta": "Observa la siguiente serie numérica: 2, 5, 9, 14, 20, ¿cuál es el número que sigue?",
@@ -1564,15 +1565,16 @@
     ],
     "respuesta_correcta": 1
   },
+  
   {
     "id": 196,
-    "pregunta": "144 estudiantes. Grupos de 6. Cada grupo en 3 subgrupos. Se forman unidades de 4 subgrupos. ¿Cuántos estudiantes por nueva unidad?",
-    "opciones": ["12", "10", "8", "6"],
-    "respuesta_correcta": 2
+    "pregunta": "En una escuela se están organizando actividades grupales. Primero, 144 estudiantes se dividen en grupos de 6 alumnos cada uno. Después, cada grupo se reparte en 3 subgrupos con el mismo número de estudiantes. Finalmente, se forman nuevas unidades agrupando 4 subgrupos entre sí. Según este procedimiento, ¿cuántos estudiantes compondrán cada nueva unidad?",
+    "opciones": ["8 estudiantes", "12 estudiantes", "6 estudiantes", "4 estudiantes"],
+    "respuesta_correcta": 0
   },
   {
     "id": 197,
-    "pregunta": "Parejas en clase de 28 sin repetir: (28 * 27) / 2 = 378. ¿Consistencia?",
+    "pregunta": "En una clase de 28 alumnos se quiere formar todas las parejas posibles sin repetir ninguna combinación. El docente indica que para obtener el número total de parejas debe multiplicar 28 × 27 y luego dividir el producto entre 2, obteniendo 378 parejas. ¿Cuál de las siguientes afirmaciones describe correctamente la consistencia del procedimiento utilizado?",
     "opciones": [
       "Inconsistente, debió dividir entre 3.",
       "Consistente, corresponde a la fórmula de combinaciones.",
@@ -2371,6 +2373,7 @@
     "respuesta_correcta": 1
   }
 ]
+
 
 
 
