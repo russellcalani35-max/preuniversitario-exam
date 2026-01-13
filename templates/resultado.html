@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados del Examen</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+        .correcto { color: green; font-weight: bold; }
+        .incorrecto { color: red; font-weight: bold; }
+        .pregunta { background: white; padding: 15px 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        hr { border: none; border-top: 1px solid #ccc; margin: 10px 0; }
+        .boton { display: block; width: 200px; margin: 20px auto; padding: 10px 15px; background: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: 0.2s; }
+        .boton:hover { background: #45a049; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin: 5px 0; padding: 5px 10px; border-radius: 5px; }
+        li.correcto { background: #e6ffe6; }
+        li.incorrecto { background: #ffe6e6; }
+    </style>
+</head>
+<body>
+    <h1>Resultados del Examen</h1>
+    <p style="text-align:center;">Tu nota: <strong>{{ puntaje }} / {{ total }}</strong> respuestas correctas ({{ porcentaje }}%)</p>
+    <hr>
+
+    {% for r in resultados %}
+        <div class="pregunta">
+            <p><strong>{{ loop.index }}. {{ r.pregunta }}</strong></p>
+            <ul>
+                {% for opcion in r.opciones %}
+                    {% set i = loop.index0 %}
+                    <li 
+                      {% if i == r.respuesta_correcta %}class="correcto"{% endif %}
+                      {% if i == r.respuesta_usuario and not r.acierto %}class="incorrecto"{% endif %}
+                    >
+                        {{ opcion }}
+                        {% if i == r.respuesta_usuario %}
+                            → tu respuesta
+                        {% endif %}
+                        {% if i == r.respuesta_correcta %}
+                            → correcta
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <hr>
+    {% endfor %}
+
+    <form action="/">
+        <button type="submit" class="boton">Hacer otro examen</button>
+    </form>
+</body>
+</html>
+
+
