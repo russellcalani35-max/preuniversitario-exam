@@ -121,7 +121,7 @@
   },
   {
     "id": 21,
-    "pregunta": "En una actividad escolar se entregan trofeos cada 5 minutos. ¿En qué minuto se entregará el siguiente trofeo?",
+    "pregunta": "En una actividad escolar se entregan trofeos a los equipos cada 5 minutos, iniciando a las 00:00 min. Si los premios se entregaron a los minutos 5, 10, 15 y 20, ¿cuál será el minuto en que se entregará el siguiente trofeo?",
     "opciones": ["20", "25", "30", "35"],
     "respuesta_correcta": 1
   },
@@ -253,7 +253,7 @@
   },
   {
     "id": 43,
-    "pregunta": "Observa la siguiente secuencia de figuras. ¿Cuál será la descripción de la quinta figura?",
+    "pregunta": "Observa la siguiente secuencia de figuras: Un círculo con un punto rojo.  Un círculo con dos puntos azules. Un círculo con tres puntos rojos. Un círculo con cuatro puntos azules. ¿Cuál será la descripción de la quinta figura de la serie?",
     "opciones": [
       "Círculo con cinco puntos azules",
       "Círculo con cinco puntos rojos",
