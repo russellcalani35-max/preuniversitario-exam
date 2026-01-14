@@ -2,23 +2,28 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Simulacro de Examen</title>
+    <title>SIMULACRO DE EXAMEN - RAZONAMIENTO LÓGICO MATEMÁTICO</title>
     <style>
         body { 
             font-family: Arial, sans-serif; 
             background: #f2f2f2; 
             padding: 20px; 
         }
-        h1 { 
-            text-align: center; 
-            color: #333; 
-        }
+       h1 { 
+    text-align: center; 
+    color: #1f2a44;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
         .creator {
-            text-align: center;
-            font-size: 16px;
-            color: #555;
-            margin-bottom: 30px; /* separa del formulario */
-        }
+    text-align: center;
+    font-size: 28px;        /* NOMBRE GRANDE */
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+            }
+
         form { 
             max-width: 900px; 
             margin: auto; 
@@ -66,7 +71,13 @@
 </head>
 <body>
     <h1>Simulacro de Examen</h1>
-    <div class="creator">Creado por: Russell Esteban Calani Arce   -    PREPA PREMIUM</div>
+    <div class="creator">
+    Russell Esteban Calani Arce
+    <div style="font-size:20px; font-weight:600; color:#4CAF50;">
+        PREPA PREMIUM
+    </div>
+</div>
+
 
     <form action="/corregir" method="POST">
         {% for p in preguntas %}
@@ -85,6 +96,7 @@
     </form>
 </body>
 </html>
+
 
 
 
